@@ -5,9 +5,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=root
-WorkingDirectory=/usr/local/bin/bot
-ExecStart=/usr/bin/python3 /usr/local/bin/bot/main.py
+User=sysadmin
+WorkingDirectory=/home/telegrambots/bitrix/LinuxBot
+ExecStart=/home/telegrambots/bitrix/bin/python3 /home/telegrambots/bitrix/LinuxBot/main.py
 RestartSec=10
 Restart=always
 
